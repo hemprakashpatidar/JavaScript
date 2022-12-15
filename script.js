@@ -1,7 +1,8 @@
 console.log("test")
 let day=5
 let arr=['car',5,'bus']
-//for
+/*
+//for   
 console.log("for")
 for(let i=0;i<arr.length;i++)
 {
@@ -22,3 +23,24 @@ console.log("forEAach")
 arr.forEach(element => {
         console.log(element)
 });
+
+*/
+/////////Switch
+function oddEven(x)
+{   
+    rem=x%2
+    switch (rem){
+        case 1:
+            console.log(`${x} is odd`)
+            break;
+        case 0:
+            console.log(`${x} is even`)
+            break;
+    }
+}
+
+let my =[12,34,45,2,64,753,35,56,47]
+
+for (let num of my){
+    oddEven(num)
+}
