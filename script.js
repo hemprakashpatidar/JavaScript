@@ -1,7 +1,7 @@
 console.log("test")
 let day=5
 let arr=['car',5,'bus']
-//
+//for
 console.log("for")
 for(let i=0;i<arr.length;i++)
 {
